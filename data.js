@@ -1,0 +1,42 @@
+export const quizData = [
+    {
+      question: "What is 1+1",
+      a: "2",
+      b: "3",
+      c: "5",
+      d: "7",
+      correct: "a",
+    },
+    {
+      question: "What is 2+2",
+      a: "5",
+      b: "4",
+      c: "6",
+      d: "9",
+      correct: "b",
+    },
+    {
+      question: "What is 4+2",
+      a: "0",
+      b: "5",
+      c: "6",
+      d: "1",
+      correct: "c",
+    },
+    {
+      question: "What is 6+2",
+      a: "1",
+      b: "9",
+      c: "6",
+      d: "8",
+      correct: "d",
+    },
+    {
+      question: "What is 8+1",
+      a: "5",
+      b: "7",
+      c: "4",
+      d: "9",
+      correct: "d",
+    },
+  ];

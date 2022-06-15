@@ -1,0 +1,99 @@
+body{
+    background-color: aliceblue;
+}
+
+h2, .result, #submit{
+    margin-left: 1em;
+}
+
+li{
+    list-style-type: none;
+    padding-bottom: 5px;
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 1200px;
+    margin-top: 5vh;
+}
+
+h1{
+    text-align: center;
+    border-bottom: 3px tomato solid;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}   
+
+h2, .result{
+    font-size: 2rem;
+}
+
+h2{
+    margin-bottom: 2.5rem;
+}
+
+span{
+    color: tomato;
+    opacity: 70%;
+    font-size: 2.5rem;
+}
+
+.ans{
+    transform: scale(1.25);
+    margin-right: 10px;
+}
+
+label{
+    font-size: 1.5rem;
+}
+
+button, #submit{
+    display: inline-block;
+    margin: 2em;
+    padding: 16px 32px;
+    cursor: pointer;
+    text-transform: uppercase;
+    background-color: rgba(255, 99, 71, 0.70);
+    color: #000;
+    font-weight: bold;
+    letter-spacing: 1.25px;
+    border: 1px solid #000;
+}
+
+button{
+    margin-left: 0;
+}
+
+#submit{
+    margin-left: auto;
+}
+
+button:hover,#submit:hover{
+    background-color: rgba(255, 99, 71, 0.803);
+}
+
+.tomato{
+    color: tomato;
+}
+
+.helper{
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    font-size: 1.25rem;
+    margin-bottom: 50px;
+}
+
+.buttons{
+    display: flex;
+    align-items: flex-end;
+}
+
+#timer{
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+
